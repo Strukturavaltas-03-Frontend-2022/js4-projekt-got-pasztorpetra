@@ -23,7 +23,7 @@ body {
   background-size: cover;
 }
 
-.characters {
+.img_container {
   display: grid;
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(6, auto);
@@ -57,7 +57,7 @@ body {
   border-radius: 3px;
 }
 
-.open-btn {
+.search-btn {
   padding: 4.5px 8px 4.5px 8px;
   border-radius: 3px;
   border: 1px solid white;
@@ -77,5 +77,5 @@ body {
   font-size: 20px;
   font-weight: bold;
  }
- 
+
 
