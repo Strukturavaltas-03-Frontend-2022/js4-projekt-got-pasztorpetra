@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:wght@300&display=swap');
+@import url(//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.container_main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/site/mapblue.jpg");
+  object-fit: fill;
+  align-self: flex-start;
+}
+
+.characters {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: repeat(6, auto);
+  grid-gap: 10px;
+}
+
